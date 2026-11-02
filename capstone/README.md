@@ -8,6 +8,10 @@ uv run streamlit run capstone/app.py                         # with Groq (GROQ_A
 LLM_PROVIDER=offline uv run streamlit run capstone/app.py    # no network: a rule-based stand-in model
 ```
 
+Provide your key by putting `GROQ_API_KEY=...` in a `.env` file (next to `app.py` in `capstone/`,
+or at the project root) or by exporting it. `streamlit run` does not read `.env` on its own, so
+`app.py` loads it at startup; an exported variable still takes precedence over the file.
+
 ## How it fits together
 
 ```

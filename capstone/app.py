@@ -8,6 +8,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+# streamlit run does not read .env, so load it before anything builds the
+# model client. This also puts the key in os.environ, which the MCP server
+# subprocesses inherit.
+from acme.config import load_dotenv
+load_dotenv()
+
 import pandas as pd
 import streamlit as st
 
