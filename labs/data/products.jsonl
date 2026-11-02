@@ -1,0 +1,12 @@
+{"sku": "SKU-001", "name": "Laptop 14in", "category": "computo", "price": 18999.0, "stock": 57}
+{"sku": "SKU-002", "name": "Monitor 27in", "category": "computo", "price": 5499.0, "stock": 11}
+{"sku": "SKU-003", "name": "Mechanical keyboard", "category": "perifericos", "price": 1299.0, "stock": 57}
+{"sku": "SKU-004", "name": "Wireless mouse", "category": "perifericos", "price": 449.0, "stock": 140}
+{"sku": "SKU-005", "name": "Ergonomic chair", "category": "mobiliario", "price": 6799.0, "stock": 23}
+{"sku": "SKU-006", "name": "Standing desk", "category": "mobiliario", "price": 9899.0, "stock": 8}
+{"sku": "SKU-007", "name": "WiFi 7 router", "category": "redes", "price": 3299.0, "stock": 79}
+{"sku": "SKU-008", "name": "24-port switch", "category": "redes", "price": 4599.0, "stock": 96}
+{"sku": "SKU-009", "name": "Laser printer", "category": "oficina", "price": 3899.0, "stock": 15}
+{"sku": "SKU-010", "name": "Black toner", "category": "oficina", "price": 899.0, "stock": 4}
+{"sku": "SKU-011", "name": "SSD 2TB", "category": "almacenamiento", "price": 2199.0, "stock": 64}
+{"sku": "SKU-012", "name": "4-bay NAS", "category": "almacenamiento", "price": 8499.0, "stock": 0}

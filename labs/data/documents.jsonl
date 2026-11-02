@@ -1,0 +1,4 @@
+{"id": "POL-01", "title": "Refund policy", "text": "Refunds apply only to paid invoices. Refunds above 5000 MXN need approval from a finance supervisor who is not the requester.", "roles": null, "regions": null}
+{"id": "POL-02", "title": "Credit terms", "text": "Gold and platinum customers may pay at 30 days. Standard customers pay when the invoice is issued.", "roles": null, "regions": null}
+{"id": "POL-03", "title": "Replenishment", "text": "Reorder when stock falls below 10 units. The target level is 20 units.", "roles": null, "regions": null}
+{"id": "POL-04", "title": "Finance escalations", "text": "Escalations above 50000 MXN go to the CFO office. Bank reconciliation runs every Friday.", "roles": ["finance"], "regions": null}

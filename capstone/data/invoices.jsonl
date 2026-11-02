@@ -1,0 +1,6 @@
+{"id": "INV-0001", "customer_id": "C-0002", "status": "issued", "total": 10998.0, "refunded": 0.0}
+{"id": "INV-0002", "customer_id": "C-0005", "status": "paid", "total": 3299.0, "refunded": 0.0}
+{"id": "INV-0003", "customer_id": "C-0007", "status": "paid", "total": 105891.0, "refunded": 0.0}
+{"id": "INV-0004", "customer_id": "C-0004", "status": "draft", "total": 1748.0, "refunded": 0.0}
+{"id": "INV-0005", "customer_id": "C-0003", "status": "paid", "total": 27798.0, "refunded": 0.0}
+{"id": "INV-0018", "customer_id": "C-0001", "status": "paid", "total": 92490.0, "refunded": 0.0}

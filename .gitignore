@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.env
+!.env.example
+capstone/runtime/
+labs/acme_erp.py
+labs/acme_read.py
+labs/acme_write.py
+labs/acme_state.json
+labs/servers.log
+labs/good_runs.jsonl

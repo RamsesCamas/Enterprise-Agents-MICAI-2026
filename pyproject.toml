@@ -1,0 +1,17 @@
+[project]
+name = "micai2026-reliable-agents"
+version = "1.0.0"
+description = "Reliable Enterprise Agents: Harness, Techniques, and Secure MCP Integration (MICAI 2026 tutorial)"
+requires-python = ">=3.11"
+dependencies = [
+    "openai==3.41.0",
+    "mcp==2.3.0",
+    "httpx>=0.27",
+    "pandas>=2.2",
+    "jupyterlab>=4.2",
+    "ipykernel>=6.29",
+    "streamlit==1.66.1",
+]
+
+[tool.uv]
+package = false
