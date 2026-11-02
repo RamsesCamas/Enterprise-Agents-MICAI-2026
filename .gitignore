@@ -4,6 +4,7 @@ __pycache__/
 .env
 *.env
 !.env.example
+INSTRUCTOR_NOTES.md
 capstone/runtime/
 labs/acme_erp.py
 labs/acme_read.py
