@@ -12,12 +12,36 @@ capstone/    The same ideas connected into one system: what an enterprise agent 
 
 ```bash
 # 1. Install uv once: https://docs.astral.sh/uv/getting-started/installation/
-# 2. In this folder:
-uv sync                                   # creates .venv with everything pinned in uv.lock
-export GROQ_API_KEY=your-key              # free at console.groq.com  (Windows: set GROQ_API_KEY=...)
-uv run jupyter lab labs/                  # the labs
-uv run streamlit run capstone/app.py      # the capstone
+# 2. In this folder, create the virtual environment and install everything into it:
+uv venv .venv                             # creates the .venv folder
+uv sync                                   # installs everything pinned in uv.lock into .venv
 ```
+
+Activate the environment so `python`, `jupyter` and `streamlit` resolve to `.venv`:
+
+```bash
+# macOS / Linux
+source .venv/bin/activate
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Windows (cmd)
+.venv\Scripts\activate.bat
+```
+
+Then provide your key and run the labs or the capstone:
+
+```bash
+# Put GROQ_API_KEY in labs/.env (copy labs/.env.example), or export it:
+export GROQ_API_KEY=your-key              # free at console.groq.com  (Windows: set GROQ_API_KEY=...)
+jupyter lab labs/                         # the labs
+streamlit run capstone/app.py             # the capstone
+```
+
+With the environment activated the commands above run inside `.venv`. If you prefer
+not to activate it, prefix each command with `uv run` instead (for example
+`uv run jupyter lab labs/`).
 
 ## Setup with Google Colab
 
