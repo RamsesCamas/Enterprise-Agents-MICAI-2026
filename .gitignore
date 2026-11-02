@@ -11,3 +11,4 @@ labs/acme_write.py
 labs/acme_state.json
 labs/servers.log
 labs/good_runs.jsonl
+labs/probe_models.py
